@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BancoWeb</title>
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="vista">
+           <div class="texto-header">
+            <h1>BANCOWEB</h1>
+            <p><strong>Te Ayuda Alcanzar Tus Metas</strong></p>
+           </div>
+           <img id="logo" src="img/logo.png" alt="logo" class="logo">
+        </div>
+
+        <div class="opcion">
+            <img id="logo1" src="img/logo.png" alt="logo1" class="logo1">
+            <nav class="main-nav">             
+                <ul class="nav-links">
+                    <li><a href="creditos.html"><span>Creditos</span></a></li>
+                    <li><a href="leasing.html"><span>Leasing</span></a></li>
+                    <li><a href="ahorros.html"><span>Ahorros</span></a></li>
+                    <li><a href="servicio_cliente.html"><span>Servicio Al Cliente</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="content">
+        <section class="contenidos">
+        <div class="sidebar">
+            <div class="form-container">
+                <h6>Ingresa Tú Cuenta</h6>
+                <form action="agregar.php" name="form1" id="form1" method="get" enctype="multipart/form-data">
+
+                    <div class="form-group-custom">
+                        <label for="cuenta" class="form-label"><strong>Cuenta:</strong></label>
+                        <input type="number" name="cuenta" id="cuenta" placeholder="Numero De Cuenta" class="input-custom">
+                    </div>
+
+                    <div class="form-group-custom">
+                        <label for="tipo" class="form-label"><strong>Tipo:</strong></label>
+                        <select name="tipo" id="tipo" class="input-custom">
+                            <option value="1">MasterCard Debito</option>
+                            <option value="2">MasterCard Credito</option>
+                            <option value="3">VISA</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group-custom">
+                        <label for="contraseña" class="form-label"><strong>Contraseña:</strong></label>
+                        <input type="password" name="contraseña" id="contraseña" placeholder="Ingrese La Contraseña" class="input-custom">
+                    </div>
+
+                    <div class="form-group-custom">
+                        <input type="submit" name="ingresar" id="ingresar" class="input-submit" value="Ingresar">
+                    </div>
+                </form>
+            </div>
+            <aside class="info">
+                <h6>Transacciones</h6>
+                <ul>
+                    <li><strong>✔ Banco Personal</strong></li>
+                    <li>✔ <strong>Banco Empresarial</strong></li>
+                    <li>✔ <strong>Banco De Seguros</strong></li>
+                    <li>✔ <strong>Pago De Facturas</strong></li>
+                </ul>
+            </aside>
+
+            <aside class="info1">
+                <h6>Tarjetas De Credito</h6>
+                <ul>
+                    <li>✔ <strong>Visa</strong></li>
+                    <li>✔ <strong>Credi MasterCard</strong></li>
+                </ul>
+            </aside>
+        </div>
+                
+        <div class="container-contenido">
+            <div class="contenido">
+                <h2>Solicita Nuestros Productos</h2>
+                <img src="img/producto.jpg" alt="productos">
+                <p>Conoce todos los productos que el banco tiene disponibles para ti. Solicitalo de una
+                    forma facil y rapida. Solo debes escoger el producto e ingresar tus datos de contacto.
+                    En pocos dias un asistente te orientara.
+                    <a href="productos.html">Leer más</a>
+                </p>
+            </div>
+
+            <div class="contenido">
+                <h3>Ahorro Estudiantil</h3>
+                <img src="img/ahorro.jpg" alt="ahorro">
+                <p>Desde ya puedes empezar a ahorrar para la educacion de tus hijos, complementandola con
+                    un seguro estudiantil y con sorteos de multiples becas estudiantiles.
+                    <a href="estudiantil.html">Leer más</a>
+                </p>
+            </div>
+
+            <div class="contenido">
+                <h4>Credito De Vehiculos</h4>
+                <img src="img/vehiculo.jpg" alt="vehiculo">
+                <p>tu credito o leasing, para financiar la compra de vehiculos nuevos o usados,
+                    particulares o comerciales, adquiridos directamente o a travez de un concesionario.
+                    <a href="vehiculos.html">Leer más</a>
+                </p>
+            </div>
+
+            <div class="contenido">
+                <h5>Credito Hipotecario</h5>
+                <img src="img/credito.jpg" alt="credito">
+                <p>inmueble propio se ha convertido en el mas anhelado sueño por eso es necesario
+                    elegir el inmueble que este acorde a las expectativas, al igual que el credito que
+                    mejor se adapte a tus posibilidades.
+                    <a href="hipotecario.html">Leer más</a>
+                </p>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="derechos">
+            <p>&copy; BancoWeb Entidad Financiera-Todos Los Derechos Reservados. 2013</p>
+        </div>
+    </footer>
+</body>
+</html>

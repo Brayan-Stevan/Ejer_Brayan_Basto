@@ -1,0 +1,403 @@
+    body {
+     margin: 0;
+     font-family: Arial, sans-serif;
+     background-color: #f8f9fa;
+    }
+
+    .vista {
+      background-color: #2352ee25;
+      padding: 0;
+      margin: 0;
+      border-bottom: 2px solid #ccc;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      overflow: hidden;
+      flex-wrap: wrap;
+      max-height: 200px;
+      display: flex;
+      gap: 20px;
+      border-color: #4e769e;
+    }
+
+    .texto-header h1 {
+     margin: 0;
+     font-size: 2.5em;
+     font-weight: bold;
+     position: relative;
+     left: 350px;
+     top: -41px;
+     color: #003366;
+    }
+
+    .texto-header p {
+     margin: 3px;
+     font-size: 1em;
+     color: #54587e;
+     position: relative;
+     left: 356px;
+     top: -43px;
+    }
+
+    .logo {
+      width: 300px;
+      margin: auto;
+      height: auto;
+      position: relative;
+      left: 60px;
+      top: -40px;
+
+    }
+
+    .opcion {
+      background-color: white;
+      padding: 20px;
+      border-bottom: 5px solid #ccc;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      display: flex;
+      flex-direction:column-reverse;
+      margin-top: 2px;
+      gap: 20px;
+      border-color: #4e769e;
+      
+    }
+
+    .nav-links {
+     padding: 0;
+     margin: 0;
+    }
+
+    .nav-links li {
+      margin: 0 50px;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      font-size: 17px;
+      color: #000;
+    }
+
+    .nav-links li a:hover {
+     color: #003366;
+     font-weight: bold;
+}
+
+    .main-nav ul {
+      list-style: none;
+      display: flex;
+      gap: 5px;
+    }
+
+    .main-nav li {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+    }
+
+    .opcion img {
+     width: 70px;
+     margin: 1px;
+     position: absolute;
+     left: 0;
+     transform: translateY(27px);
+    }
+
+    .contenidos {
+      background-color: #ffffff11;
+      margin: 0;
+      border-bottom: 5px solid #ccc;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px;
+    }
+
+    .form-container {
+      width: 280px;
+      margin: 20px; 
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 20px;
+      margin-left: 74px;
+      border: 4px solid #4e769e;
+      box-shadow: 0 10px 25px rgba(49, 48, 48, 0.144);
+      transition: all 0.3s ease-in-out;
+      font-family: 'Segoe UI', Roboto, sans-serif;    
+      position: static;
+    }
+
+    .form-container:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px #15599c50;
+    }
+
+    .form-container h6 {
+      overflow: hidden;
+      margin: 18px;
+      font-size: 23px;
+      font-family:apple-system;
+      text-align: center;
+      display: block;
+      position: relative;
+      top: -5px;
+      color: #4e4e4e;
+    }
+
+    .input-custom {
+      background-color: #f9f9f9;
+      color:var(--text-dark)    ;          
+      border: 2px solid #4e769e;   
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 5px #15599c83;
+    }
+
+    .input-submit {
+      background-color: #f9f9f9;
+      color:var(--text-dark)    ;          
+      border: 2px solid #4e769e;   
+      padding: 8px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 5px #15599c83;
+      display: block;
+      margin: auto;
+      position: relative;
+      top: 8px;
+      font-family: apple-system;
+      color:#4e4e4e ;
+    }
+
+    .form-label {
+      font-weight: 500;
+      color: var(--text-dark);
+      font-family: apple-system;
+      color:#4e4e4e ;
+    }
+
+    .container-contenido {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 30px 30px;
+      padding: 20px;
+      margin:  0 auto;
+      max-width: 700px;
+      margin-left: 80px;
+    }
+    .contenido {
+      width: 280px;
+      margin: -0px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 20px;
+      border: 2px solid #4e769e;
+      box-shadow: 0 10px 25px rgba(49, 48, 48, 0.144);
+      transition: all 0.3s ease-in-out;
+      font-family: 'Segoe UI', Roboto, sans-serif;    
+      position: static;
+    }
+
+    .contenido:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px #15599c50;
+    }
+
+    .contenido img {
+      display: block;
+      margin: 5px;
+      border: 2px solid #4e769e;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.205);
+      align-items: center;
+      max-width: 150px;
+      margin: 4px auto;
+      padding: 2px;
+    }
+
+    .contenido h2 {
+      margin: 12px;
+      font-size: 20px;
+      font-family:apple-system;
+      color: #4e4e4e;
+      text-align: center;
+      
+    }
+
+    .contenido h3 {
+      margin: 12px;
+      font-size: 20px;
+      font-family:apple-system;
+      text-align: center;
+      color: #4e4e4e;
+     
+    }
+
+    .contenido h4 {
+      margin: 12px;
+      font-size: 20px;
+      font-family:apple-system;
+      text-align: center;
+      color: #4e4e4e;
+      
+    }
+
+    .contenido h5 {
+      margin: 12px;
+      font-size: 20px;
+      font-family:apple-system;
+      text-align: center;
+      color: #4e4e4e;
+    
+    }
+
+    .contenido p {
+      font-size: 12px;
+      font-style: italic;
+      font-family: system-ui, -apple-system-ui;
+      text-align: center;
+      line-height: 100%;
+      color: #525252;
+      display: block;
+      margin: 15px;
+      
+    }
+
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      max-width: 320px;
+    }
+
+    .info {
+      width: 210px;
+      margin: 20px; 
+      padding: 0px;
+      background-color: #2352ee25;
+      margin-left: 124px;
+      border: 3px solid #4e769e;
+      box-shadow: 0 10px 25px rgba(49, 48, 48, 0.144);
+      transition: all 0.3s ease-in-out;
+      font-family: apple-system;  
+      position: static;
+    }
+
+    .info:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px #15599c50;
+    }
+
+    .info1 {
+      width: 210px;
+      margin: 10px; 
+      padding: 0px;
+      background-color: #2352ee25;
+      margin-left: 124px;
+      border: 3px solid #4e769e;
+      box-shadow: 0 10px 25px rgba(49, 48, 48, 0.144);
+      transition: all 0.3s ease-in-out;
+      font-family: apple-system;   
+      position: static;
+    }
+
+    .info1:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px #15599c50;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      text-align: center;
+      color:#4e4e4e;
+    }
+
+    .info h6 {
+      font-size: 15px;
+      margin: 10px;
+      height: 5px;
+      text-align: center;
+      font-family:apple-system;
+    }
+
+    .info1 h6 {
+      font-size: 15px;
+      margin: 10px;
+      height: 5px;
+      text-align: center;
+      font-family:apple-system;
+    }
+
+    .form-group-custom {
+      box-shadow: #111827;
+      margin-bottom: 2rem;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .form-group-custom:hover {
+      transform: translateY(-3px);
+      box-shadow: #111827;
+    }
+
+    .site-footer {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    }
+
+  @media (max-width: 768px) {
+  .contenidos {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .sidebar {
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .form-container,
+  .info,
+  .info1 {
+    width: 100%;
+    max-width: 400px;
+    margin-left: 0;
+  }
+
+  .form-container h6 {
+    font-size: 20px;
+  }
+
+  .container-contenido {
+    grid-template-columns: 1fr;
+    margin-left: 0;
+    max-width: 100%;
+    padding: 0 10px;
+    gap: 15px;
+  }
+
+  .contenido {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .input-custom {
+    width: 100%;
+  }
+
+  .form-group-custom {
+    margin-bottom: 12px;
+  }
+
+  .contenido img {
+    max-width: 100%;
+  }
+}
