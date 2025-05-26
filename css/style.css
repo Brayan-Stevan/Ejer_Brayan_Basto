@@ -21,32 +21,37 @@
     }
 
     .texto-header h1 {
-     margin: 0;
+     margin: 0px;
+     margin-top: -20px;
      font-size: 2.5em;
      font-weight: bold;
-     position: relative;
-     left: 350px;
-     top: -41px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 280px;
      color: #003366;
     }
 
     .texto-header p {
-     margin: 3px;
-     font-size: 1em;
+     margin: 5px;
+     display: flex;
+     font-size: 13px;
      color: #54587e;
-     position: relative;
-     left: 356px;
-     top: -43px;
+     justify-content: center;
+     align-items: center;
+     height: 0px;
+     margin-left: 282px;
     }
 
     .logo {
       width: 300px;
-      margin: auto;
-      height: auto;
-      position: relative;
-      left: 60px;
-      top: -40px;
-
+      margin: 0px;
+      height: 250px;
+      display: flex;
+      margin-right: 230px;
+      margin-top: -20px;
+      align-items: center;
+      justify-content: center;
     }
 
     .opcion {
@@ -282,6 +287,7 @@
       transition: all 0.3s ease-in-out;
       font-family: apple-system;  
       position: static;
+      transform: rotate( -10deg);
     }
 
     .info:hover {
@@ -300,6 +306,7 @@
       transition: all 0.3s ease-in-out;
       font-family: apple-system;   
       position: static;
+      transform: rotate(-10deg);
     }
 
     .info1:hover {
