@@ -268,6 +268,72 @@
       
     }
 
+    .contenido-general {
+      width: 280px;
+      margin: 15px;
+      padding: 20px;
+      margin-left: 130px;
+      margin-right: 0px;
+      background-color: #ffffff;
+      border-radius: 20px;
+      border: 2px solid #4e769e;
+      box-shadow: 0 10px 25px rgba(49, 48, 48, 0.144);
+      transition: all 0.3s ease-in-out;
+      font-family: 'Segoe UI', Roboto, sans-serif;    
+      position: static;
+    }
+
+    .contenido-general:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px #15599c50;
+    }
+
+    .contenido-general img {
+      display: block;
+      margin: 5px;
+      border: 2px solid #4e769e;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.205);
+      align-items: center;
+      max-width: 150px;
+      margin: 4px auto;
+      padding: 2px;
+    }
+
+    .contenido-general h2 {
+      margin: 12px;
+      font-size: 20px;
+      font-family:apple-system;
+      color: #4e4e4e;
+      text-align: center;
+    }
+
+    .contenido-general h3 {
+      margin: 12px;
+      font-size: 20px;
+      font-family:apple-system;
+      text-align: center;
+      color: #4e4e4e;
+     
+    }
+
+    .contenido-general p {
+      font-size: 12px;
+      font-style: italic;
+      font-family: system-ui, -apple-system-ui;
+      text-align: center;
+      line-height: 100%;
+      color: #525252;
+      display: block;
+      margin: 15px;
+    }
+
+    hr {
+      border: none;
+      height: 2px;
+      background-color: #ccc;
+      margin: 20px;
+    }
+
     .sidebar {
       display: flex;
       flex-direction: column;
